@@ -5,7 +5,8 @@ StudyBot is a pomodoro timer but with an indefinite time. With a standard pomodo
 
 INSTALL
 1. clone this repo onto your local machine
-2. Run studybot.py
+2. Make sure you have tkinter on your machine
+3. Run studybot.py
 
 CREDITS
 Kieron von Buchstab
