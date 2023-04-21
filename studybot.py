@@ -63,14 +63,14 @@ class StudyTimer(tk.Frame):
         self.break_start_time = time.time()
         self.break_running = True
         self.start_button.config(state='disabled')
-        break_length = self.study_elapsed_time // 5
+        break_length = self.study_elapsed_time/10
         self.break_label.config(text=f'Break timer: {int(break_length)}:00')
         self.update_break_timer()
 
     def update_break_timer(self):
         if self.break_running:
             elapsed_time = time.time() - self.break_start_time
-            remaining_time = int((self.study_elapsed_time // 5) - elapsed_time)
+            remaining_time = int((self.study_elapsed_time/10) - elapsed_time)
             if remaining_time >= 0:
                 break_time = time.strftime('%H:%M:%S', time.gmtime(remaining_time))
                 self.break_label.config(text=f'Break timer: {break_time}')
