@@ -57,7 +57,7 @@ class StudyTimer(tk.Frame):
 
             self.master.after(100, self.update_study_timer)
         else:
-            self.total_study_time += self.additional_study_time
+            self.total_study_time = self.additional_study_time
 
     def break_(self):
         self.break_start_time = time.time()
