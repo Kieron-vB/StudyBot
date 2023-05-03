@@ -84,6 +84,7 @@ class StudyTimer(tk.Frame):
                 self.start_button.config(state='normal')
 
 root = tk.Tk()
+root.iconbitmap("StudyBotLogo.ico")
 
 app = StudyTimer(root)
 app.pack()
