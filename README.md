@@ -1,12 +1,9 @@
 # StudyBot
 
-DESCRIPTION
 StudyBot is a pomodoro timer but with an indefinite time. With a standard pomodoro timer you study for 25 minutes and take a 5 minute break. The problem with this is that sometimes you want to study for more or less than 25 minutes. StudyBot fixes this by replacing the 25 minute timer with an indefinite stopwatch. When you are done studying your break starts for a time equal to your study time divided by 5, just like a pomodoro timer.
 
 INSTALL
-1. clone this repo onto your local machine
-2. Make sure you have tkinter on your machine
-3. Run studybot.py
+1. Download from release page
 
 CREDITS
 Kieron von Buchstab
